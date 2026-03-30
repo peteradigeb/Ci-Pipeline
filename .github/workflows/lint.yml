@@ -21,8 +21,7 @@ jobs:
         run: npm install
 
       - name: Run ESLint
-        run: chmod +x ./node_modules/.bin/eslint
-          npx eslint .
+        run: chmod +x ./node_modules/.bin/eslint; npx eslint .
 
       - name: Run ESLint
         run: npx eslint .
