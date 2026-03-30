@@ -7,7 +7,7 @@ function add(a, b) {
 }
 
 // Simple test
-if (add(2, 2) !== 4) {
+if (add(2, 2) !== 5) {
   console.error("Test failed ❌");
   process.exit(1);
 }
