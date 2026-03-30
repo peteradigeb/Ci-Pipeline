@@ -1,4 +1,5 @@
 #!/bin/bash
+/* eslint-env node */
 
 var x = 10;
 console.log(x);
